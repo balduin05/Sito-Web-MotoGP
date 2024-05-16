@@ -1,0 +1,125 @@
+body {
+    font-family: "helvetica";
+    margin: 0;
+    padding: 0;
+    background-image: url("img/motogp-vector.svg");
+  }
+  
+  .mPiloti{
+    background-color: rgb(204, 50, 48);
+    border-radius: 10px;
+  }
+
+  .menu {
+    background-color: rgb(16, 3, 2);
+    border: 3px solid red;
+    box-shadow: 0 0 20px red;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0px;
+  }
+  
+  .menu ul li {
+    display: inline;
+  }
+  
+  .menu ul li img {
+    vertical-align: middle;  /* allinea verticalmente l'immagine */
+    padding-bottom: 12px;
+  }
+  
+  .menu ul li a {
+    display: inline;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu ul li a:hover {
+    background-color: rgb(204, 50, 48);
+    border-radius: 10px;
+  }
+
+  .row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+
+  }
+
+  .row ul{
+    list-style: none;
+  }
+
+  .row ul li{
+    margin-bottom: 100px;
+  }
+
+  .ducatiLenovoteam{
+    border: 3px solid rgb(100, 32, 31);
+    background-color: rgb(30, 28, 32);
+  }
+
+  .LCRHonda{
+    border: 3px solid rgb(30, 30, 30);
+    background-color: rgb(88, 92, 95);
+  }
+
+  .MonsterEnergyYamahaMotoGP{
+    border: 3px solid rgb(24, 28, 33);
+    background-color: rgb(24, 36, 64); 
+  }
+
+  .PrimaPramacRacing{
+    border: 3px solid rgb(24, 28, 33);
+    background-color: rgb(53, 37, 79); 
+  }
+
+  .RedBullGASGASTech3{
+    border: 3px solid rgb(24, 28, 33);
+    background-color: rgb(59, 29, 36); 
+  }
+
+  .RepsolHondaTeam{
+    border: 3px solid rgb(24, 28, 33);
+    background-color: rgb(92, 70, 42); 
+  }
+
+  .RedBullKTMFactoryRacing{
+    border: 3px solid rgb(24, 28, 33);
+    background-color: rgb(89, 53, 37); 
+  }
+
+  .ApriliaRacing{
+    border: 3px solid rgb(24, 28, 33);
+    background-color: rgb(51, 73, 47); 
+  }
+
+  .TrackhouseRacing{
+    border: 3px solid rgb(24, 28, 33);
+    background-color: rgb(30, 49, 79); 
+  }
+
+  .PeraminaEnduroVR46RacingTeam{
+    border: 3px solid rgb(24, 28, 33);
+    background-color: rgb(84, 95, 47); 
+  }
+
+  .GresiniRacingTeam{
+    border: 3px solid rgb(24, 28, 33);
+    background-color: rgb(64, 72, 86); 
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: center;
+    bottom: 0;
+    width: 100%;
+}
