@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../HTML Utilità"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Corso HTML Brugin"
+	}
+}

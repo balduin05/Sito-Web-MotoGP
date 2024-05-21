@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabella con Barre Verticali e Margini</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 20px; /* Aggiungi i margini desiderati */
+    }
+    table {
+        width: calc(100% - 40px); /* Sottrai i margini dalla larghezza totale */
+        border-collapse: collapse;
+    }
+    table th, table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .position {
+        position: relative;
+    }
+    .position::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -5px;
+        width: 5px;
+        background-color: #f00; /* Cambia questo colore per ogni riga */
+    }
+    .team-logo {
+        width: 20px; /* Dimensioni dell'immagine del logo del team */
+        height: auto;
+        vertical-align: middle;
+        margin-right: 5px; /* Margine a destra per separare l'immagine dal testo */
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>Pos.</th>
+                <th>Rider</th>
+                <th>Team</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Esempi di righe, puoi aggiungere altre righe con un loop o manualmente -->
+            <tr>
+                <td class="position">1</td>
+                <td>John Doe</td>
+                <td><img src="team_logo1.png" alt="Team A" class="team-logo">Team A</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td class="position">2</td>
+                <td>Jane Smith</td>
+                <td><img src="team_logo2.png" alt="Team B" class="team-logo">Team B</td>
+                <td>90</td>
+            </tr>
+            <!-- Aggiungi altre righe qui -->
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+body {
+    font-family: "helvetica";
+    margin: 0;
+    padding: 0;
+    background-image: url("img/motogp-vector.svg");
+  }
+  
+  
+  .menu {
+    background-color: rgb(16, 3, 2);
+    border: 3px solid red;
+    box-shadow: 0 0 20px red;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0px;
+  }
+  
+  .menu ul li {
+    display: inline;
+  }
+  
+  .menu ul li img{
+    vertical-align: middle;  /* allinea verticalmente l'immagine */
+    padding-bottom: 12px;
+  }
+  
+  .menu ul li a {
+    display: inline;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu ul li a:hover {
+    background-color: rgb(204, 50, 48);
+    border-radius: 10px;
+  }
+
+  .container {
+    margin: 20px; /* Aggiungi i margini desiderati */
+}
+table {
+    width: calc(100% - 40px); /* Sottrai i margini dalla larghezza totale */
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+table th, table td {
+    border: 2px solid rgb(16, 3, 2);
+    padding: 8px;
+    text-align: left;
+    box-shadow: 0 0 5px grey;
+}
+
+.pramac {
+    position: relative;
+}
+
+.pramac::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(100, 50, 155); /* Cambia questo colore per ogni riga */
+}
+
+.ducati {
+    position: relative;
+}
+
+.ducati::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(188, 39, 26); /* Cambia questo colore per ogni riga */
+}
+
+.gresini {
+    position: relative;
+}
+
+.gresini::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(161, 179, 214); /* Cambia questo colore per ogni riga */
+}
+
+.aprilia {
+    position: relative;
+}
+
+.aprilia::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(114, 177, 76); /* Cambia questo colore per ogni riga */
+}
+
+.redbullKTM {
+    position: relative;
+}
+
+.redbullKTM::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(237, 112, 45); /* Cambia questo colore per ogni riga */
+}
+
+.pertamina {
+    position: relative;
+}
+
+.pertamina::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(226, 254, 82); /* Cambia questo colore per ogni riga */
+}
+
+.monster {
+    position: relative;
+}
+
+.monster::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(25, 53, 135); /* Cambia questo colore per ogni riga */
+}
+
+.trackhouse {
+    position: relative;
+}
+
+.trackhouse::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(42, 100, 197); /* Cambia questo colore per ogni riga */
+}
+
+.redbullGASGAS {
+    position: relative;
+}
+
+.redbullGASGAS::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(140, 30, 42); /* Cambia questo colore per ogni riga */
+}
+
+.repsol {
+    position: relative;
+}
+
+.repsol::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    width: 5px;
+    background-color: rgb(242, 164, 61); /* Cambia questo colore per ogni riga */
+}
+
+.team-logo {
+    width: 20px; /* Dimensioni dell'immagine */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px; /* Margine a destra per separare l'immagine dal testo */
+}
+
+.rider-photo{
+    width: 100px; /* Dimensioni dell'immagine */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px; /* Margine a destra per separare l'immagine dal testo */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+  }

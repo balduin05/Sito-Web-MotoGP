@@ -1,0 +1,122 @@
+body {
+    font-family: "helvetica";
+    margin: 0;
+    padding: 0;
+    background-image: url("img/motogp-vector.svg");
+    margin-bottom: 50px;
+  }
+  
+  .Piloti{
+    background-color: rgb(204, 50, 48);
+    border-radius: 10px;
+  }
+
+  .menu {
+    background-color: rgb(16, 3, 2);
+    border: 3px solid red;
+    box-shadow: 0 0 20px red;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0px;
+  }
+  
+  .menu ul li {
+    display: inline;
+  }
+  
+  .menu ul li img {
+    vertical-align: middle;  /* allinea verticalmente l'immagine */
+    padding-bottom: 12px;
+  }
+  
+  .menu ul li a {
+    display: inline;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu ul li a:hover {
+    background-color: rgb(204, 50, 48);
+    border-radius: 10px;
+  }
+
+  .content{
+     margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .content h2 {
+      color: #333;
+  }
+  .content p {
+      margin-bottom: 20px;
+  }
+  .content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+  }
+  .content table, th, td {
+      border: 1px solid #ddd;
+  }
+  .content th, .content td {
+      padding: 12px;
+      text-align: left;
+  }
+  .content th {
+      background-color: #f2f2f2;
+  }
+  .content tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+  }
+  .content tbody tr:hover {
+      background-color: #f1f1f1;
+  }
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.results-table th,
+.results-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.results-table th {
+    background-color: #f2f2f2;
+}
+
+.results-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.results-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+#qatar{
+  width: 5px; /* Dimensioni dell'immagine */
+  height: auto;
+  vertical-align: middle;
+  margin-right: 5px; /* Margine a destra per separare l'immagine dal testo */
+}
+
+footer {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Puoi personalizzare il colore di sfondo */
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
